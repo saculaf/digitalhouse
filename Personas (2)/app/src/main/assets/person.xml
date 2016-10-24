@@ -1,0 +1,26 @@
+<personas>
+    <person>
+        <name>Juan</name>
+        <lastname>Perez</lastname>
+        <age>23</age>
+        <lastTweet>Yendo al estreno de Batman vs Superman</lastTweet>
+    </person>
+
+    <person>
+         <name>Federico</name>
+        <nickname>Fede</nickname>
+        <lastname>Matellan</lastname>
+        <age>23</age>
+        <address>Calle Falsa 123</address>
+        <lastTweet>Yendo al estreno de Batman vs Superman</lastTweet>
+    </person>
+
+    <person>
+    <name>Matias</name>
+    <lastname>Matiriri</lastname>
+    <age>23</age>
+    <lastTweet>Yendo al estreno de Batman vs Superman</lastTweet>
+    </person>
+
+</personas>
+

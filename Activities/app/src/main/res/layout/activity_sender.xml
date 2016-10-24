@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.digitalhouse.activities.SenderActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/textViewNombre"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:hint="Complete su nombre"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewNombre"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido:"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/textViewApellido"
+        android:layout_below="@+id/textViewNombre"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:hint="Complete su apellido"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewApellido"
+        android:layout_below="@+id/editText1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/textViewEdad"
+        android:layout_below="@+id/textViewApellido"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:hint="Complete su edad"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewEdad"
+        android:layout_below="@+id/editText2"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText3"
+        android:id="@+id/boton1"
+        android:text="MANDAR"
+        android:onClick="enviarMensaje"
+        />
+
+</RelativeLayout>
